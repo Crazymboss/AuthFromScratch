@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   end
 
   def create
-    flash[:notice] = "Welcome #{user.email}"
+    flash[:notice] = "Welcome #{user&.email}"
     redirect_to root_path
   end
 

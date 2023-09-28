@@ -11,3 +11,4 @@ module SystemHelpers
     click_on "user-sign-out"
   end
 end
+
